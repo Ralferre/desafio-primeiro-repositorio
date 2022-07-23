@@ -1,0 +1,33 @@
+
+		Introdução ao Git e Github
+
+	Link download Git para Mac OS: https://git-scm.com/download/mac
+
+	Versão instalada é: 2.37.1
+
+	Conhecendo os primeiros passos do Git:
+		- SHA1 algoritmo de encriptação constituído por 40 caracteres único para cada arquivo
+		- Objeto interno do git blob
+		- Objeto interno do git tree
+		- Objeto interno do git commit
+		- Ativação de ssh
+
+	Primeiros comandos do git:
+		- Verifica existência de pasta .git: ls -a
+		- Configuração inicial do git: git config --global user.email
+		- Configuração inicial do git: git config --global user.name
+		- Iniciando o git: git init
+		- Adicionando arquivos staged preparando para comitar: git add *
+		- Adicionando arquivos ao commit: git commit -m "comentários inicial ou das alterações efetuadas"
+		- Visualiza status do arquivo/repositório: git status
+		- Remove configurações do email do usuário do git: git config --global --unset user.email
+		- Remove configurações do nome do usuário do git: git config --global --unset user.name
+		- Insere nova configuração de e-mail do usuário git: git config --global user.email "novo e-mail"
+		- Insere nova configuração de nome do usuário git: git config --global user.name "novo nome"
+		- Cria novo repositório local para repositório remoto: git remote add origin + URL ou link copiado do GitHub
+		- Empurra repositório local para repositório remoto: git push origin master
+		- Busca/baixa repositório remoto para ambiente de trabalho local: git pula origin master
+ 
+
+		
+
