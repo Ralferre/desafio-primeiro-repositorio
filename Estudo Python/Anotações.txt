@@ -1,0 +1,36 @@
+
+			Intensivão de Python
+
+	Primeiro dia Automação de Processos:
+		- conhecendo primeiros comandos da biblioteca pyautogui
+		- automação para digitar teclas do teclado usando o comando pyautogui.hotkey()
+		- automação para teclar teclas do teclado usando o comando pyautogui.press()
+		- automação para escrita com o teclado usando o comando pyautogui.white()
+		- comando de temporização usando o comando time.sleep()
+		- automação de click com o mouse, determinando posições da tela usando o comando pyautogui.position()
+		- funcionalidades iniciais das bibliotecas pandas, numpy para análise de dados
+		- leitura de arquivos para análise de dados usando o comando pd.read_excel()
+
+	Segundo dia Importando e Visualizando Dados:
+		- utilizando biblioteca pandas para análise de dados
+		- criando data frame a partir de uma leitura de arquivo em um link na web em formato csv usando o comando pd.read_csv() 
+		- mostrando dados coletados a partir da leitura do arquivo csv usando o comando display(df)
+		- separando e retirando linhas e colunas inúteis para a análise de dados usando o comando df.drop([])
+		- convertendo dados duvidosos em colunas esperada valores para valores numéricos usando o comando pd.to_numeric(df[])
+		- removendo colunas vazias usando o comando df.dropna()
+		- monitorar dados usando o comando display() para validar efetividade dos comandos
+
+	Terceiro dia Automação Web Scraping Usando o Seleniun:
+		- importando pacote do webdriver
+		- automação para informar remotamente a cotação do dólar
+		- automação de acesso à página do google usando o comando navegador.get()
+		- automação para procurar elementos em uma página HTML usando o comando navegador.find_element()
+		- inserindo valores das cotações na tabela para Report aos interessados usando o comando pd.read_excel()
+		- atualizando os valores na tabela usando o comando tabela = loc[tabela["Moeda"] == "Dólar", "Cotação"] = float(cotacao_dolar)
+
+	Quarto dia Machine Learning e Data Science:
+		- criando inteligência artificial para fazer previsões de vendas de determinados produtos
+		- a partir de uma base de dados contendo valores investidos em variados meios de comunicação e valores vendidos de cada produto
+		- separando valores de treino e teste da inteligência artificial
+		- usado dois exemplos de modelo, regressão linear e árvore de decisão
+		- fazendo o cálculo do valor de r2 para análise da efetividade dos modelos utilizados na inteligência artificial
